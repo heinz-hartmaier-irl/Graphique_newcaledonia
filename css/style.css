@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #ff7e5f, #ffb07c, #ff9966, #ff8985, #f7ea8a, #ffcc70, #ff6e71, #e8e8e8);
+    background-size: 400% 400%; 
+    min-height: 100vh;
+    animation: background 10s ease infinite; 
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: rgba(226, 226, 226, 0.478);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.presentation h1 {
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 170px;
+    height: auto;
+    margin-left: 20px;
+}
+
+header a i {
+    margin-right: 20px;
+}
+
+.next {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next a i {
+    font-size: 75px;
+    color: rgb(19, 19, 19);
+}
+
+.navigation a i, header a i {
+    font-size: 75px;
+    color: rgb(19, 19, 19);
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.bubble {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 20px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+#chart1, #chart2 {
+    margin-top: 40px;
+}
+
+@keyframes background {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

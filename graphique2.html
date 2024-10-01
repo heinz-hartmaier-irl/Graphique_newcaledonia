@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="dist/apexcharts.css" />
+    <link rel="stylesheet" href="boxicons-2.1.4/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>SAE303</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo_dataviz_pacific.png" alt="logo_dataviz_pacific">
+        <a href="index.html"><i class='bx bxs-home' ></i></a>
+    </header>
+    <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <p>Intéressons-nous maintenant au manque d'information. Les personnes sont-elles conscientes de leur situation d'obésité ? Ressentent-elles ce problème ?
+                        Une forte majorité reconnaît se sentir en surpoids, donc ils sont conscients d'un problème dans leur alimentation. Environ 20 % des gens pensent avoir un poids normal, tandis qu'un peu plus de 10 % se sentent obèses.</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="ressentit" id="ressentit"></div>
+                </div>
+            </div>
+                <div class="col-sm">
+                    <p>Cette analyse montre que la majorité des personnes se considèrent dans des catégories de poids inférieures 
+                        à leur véritable IMC. Une explication possible est que les gens ont du mal à s'avouer obèses car ce terme 
+                        est souvent perçu comme grave. Ne se sentant pas en mauvaise santé, ils ne se considèrent pas obèses. Il 
+                        existe différents types d'obésité, et beaucoup ne le savent probablement pas, ce qui illustre un manque 
+                        d'information sur la santé et la consommation en général. Les gens pensent que leur alimentation ou leur 
+                        activité physique est suffisante alors qu'elle ne l'est pas.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg">
+                        <div id="sport"></div>
+                    </div>
+                </div>
+            <div class="navigation">
+                <a href="graphique1.html"><i class='bx bxs-right-arrow-circle bx-rotate-180' ></i></a>
+                <a href="graphique3.html"><i class='bx bxs-right-arrow-circle' ></i></a>
+            </div>
+    <script src="json/barometre_sante.js"></script>
+    <script src="dist/apexcharts.min.js"></script>
+    <script src="reference/reduces.js"></script>
+    <script src="reference/filtres.js"></script>
+    <script src="js/funnel.js"></script>
+</body>
+</html>

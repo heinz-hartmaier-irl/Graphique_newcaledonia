@@ -1,0 +1,6 @@
+[
+    { "place": "Nouméa", "value": 30, "population": 100000, "description": "Capitale de la NC" },
+    { "place": "Dumbéa", "value": 40, "population": 20000, "description": "Un trou paumé" },
+    { "place": "Païta", "value": 50, "population": 30000, "description": "Paita bordel" }
+  ]
+  
