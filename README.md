@@ -1,0 +1,1 @@
+Un projet dans lequel nous étions mis en duo avec un jeu de données à analyser : l'un devait faire un "storytelling" avec ce jeu de données, tandis que l'autre devait les présenter sous forme de graphiques.
